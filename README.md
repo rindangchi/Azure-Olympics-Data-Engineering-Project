@@ -272,6 +272,67 @@ Container is a place where we store our data.
 
    ![image](https://github.com/user-attachments/assets/bdd4297d-11d9-4787-9eec-711bc54cf398)
 
+9. Once it i green means that teh cluster and the compute is ready
+
+   ![image](https://github.com/user-attachments/assets/7cd65720-05b2-4cc7-9a01-6d2db6908738)
+
+   When go to compute option, it said that our compute is ready :
+
+   ![image](https://github.com/user-attachments/assets/2b9aa7b9-6cb9-4e37-8405-106fe7a8ae80)
+
+10. Now we are ready to write a code to get data from the raw data lake, tranform it, then save it again to transform data lake
+
+    Goto New button --> then create Notebook
+
+    ![image](https://github.com/user-attachments/assets/cc68ada6-85b3-40fc-8edc-2e1bc6a95da3)
+
+ 11. We will be directed to the Notebook, then put a new name for the notebook.
+
+     ![image](https://github.com/user-attachments/assets/a0c53bea-4a6d-4b73-921b-9f26e482efb6)
+
+ 12. To enable access data from Azure Data Lake to Azure Databrick, we need to make connection. In this case we need to create an App to give access between ADL and ADB. In simple way explanation we need to attach the data file in ADL to Azure data factory so we can easily access the data to the ADB, ADF will give us authentication to access the data from ADL to ADB.
+
+     - Create App Registration
+       In this step we will create app and get credentials to create connection to the ADB. 
+
+       ![image](https://github.com/user-attachments/assets/628f8d2e-604d-46e1-9d5c-21f943454c0b)
+
+     - Click Register App
+
+       ![image](https://github.com/user-attachments/assets/dfd85d10-384d-4ebb-b873-ad5d5ba5deca)
+
+     - Give the name App001 and click Register
+
+       ![image](https://github.com/user-attachments/assets/172e10c9-a0db-493f-ab31-1963c78c66dc)
+
+     - We will be directed to the App panel, in this part we need applicationID and directory tenant ID. Save those two things in a save place.
+
+       ![image](https://github.com/user-attachments/assets/b8ec8305-16fa-4489-a194-47e600e7dd50)
+
+     - Then choose Certificates & Secrets
+
+       ![image](https://github.com/user-attachments/assets/e97f21bd-19d6-4349-ac27-1744a0c2f9db)
+
+     - In the new section choose create client secret. Then give name and click Add.
+
+       ![image](https://github.com/user-attachments/assets/75d5049e-bc5d-44c4-be0b-baa8754ecd4c)
+
+     - In the client secret section, a new client secret is created and copy the value.
+
+       ![image](https://github.com/user-attachments/assets/24d7d543-1af4-4ffb-a09d-b4daf7d4e11a)
+
+     - 
+
+
+
+
+       
+
+
+     
+
+
+
 
 
    
