@@ -130,21 +130,127 @@ Container is a place where we store our data.
 
 8. Create Pipeline :
 
-   - Go to Author then click plus icon then choose pipelie --> pipeline.
+   8.1. Go to Author then click plus icon then choose pipelie --> pipeline.
 
      ![image](https://github.com/user-attachments/assets/4b899b9b-a8c7-44b2-8a3f-39745b670ebf)
 
-   - Give name for the pipeline as data-ingestion.
+   8.2. Give name for the pipeline as data-ingestion.
 
      ![image](https://github.com/user-attachments/assets/6264b6f5-e683-4e83-b953-a1738fe2e626)
 
-   - The pipeline steps:
+   8.3. The pipeline steps:
 
-     - Copy data from data source to the data storage. The data is stored in in Github repository, so from the github respository we will load the data to the azure data factory.
+   8.3.1. Copy data from data source to the data storage. The data is stored in in Github repository, so from the github respository we will load the data to the azure data factory. We will copy the raw data URL from the gihub reporitory.
 
-       ![image](https://github.com/user-attachments/assets/10a77ba4-1358-407c-80e7-b958ee29b766)
+   ![image](https://github.com/user-attachments/assets/10a77ba4-1358-407c-80e7-b958ee29b766)
+
+   1. Create source
+      - Click New on the bottom section.
+
+      ![image](https://github.com/user-attachments/assets/9d49af6f-333b-4c12-801f-4c59216b8604)
+
+      - Choose HTTP :
+
+      ![image](https://github.com/user-attachments/assets/11da1154-4757-41b9-8b55-dc2f98fcd4b4)
+
+      - Then choose .csv format :
+
+      ![image](https://github.com/user-attachments/assets/c7c069d3-08c1-4e47-b21e-1621fc3ecc27)
+
+      - In the properties section give the file name, and create new linked service
+
+      ![image](https://github.com/user-attachments/assets/6fd23234-5c7f-4f5d-9909-f19ee5d19d31)
+
+      - In the linked service section, complete all the required fields, then click create button in the bottom of the page:
+
+      ![image](https://github.com/user-attachments/assets/e7404a19-195d-40fe-b6eb-6a5428060ea1)
+
+      - Then will back to the Properties section, click OK:
+
+      ![image](https://github.com/user-attachments/assets/27176f4f-4bec-42b8-a0c9-db026bb77ea6)
+
+      - In the source section, we can preview the data:
+
+      ![image](https://github.com/user-attachments/assets/34d952f8-5cf6-458a-bb25-fba3b597ea18)
+
+      - After clicking preview data button:
+
+      ![image](https://github.com/user-attachments/assets/44d21a72-1361-44ba-a1a0-585e36dec6d4)
+
+   2. Create Sink.
+      - Sink is target location where we will store the data.
+      In the sink tab, choose create New.
+
+      ![image](https://github.com/user-attachments/assets/d4a797ba-9bda-4818-84cc-2398dd030295)
+
+      - Choose Azure Data lake 2 then click continue 
+
+        ![image](https://github.com/user-attachments/assets/4f9b5ba3-14bd-454c-a905-e7ac5577a36f)
+
+      - Choose file type, we will choose .csv. Then click continue 
+
+        ![image](https://github.com/user-attachments/assets/2bad942f-c234-4b25-a334-341fc74e86b5)
+
+      - In the properties section, give name and create new linked service
+
+        ![image](https://github.com/user-attachments/assets/bb29dd04-fcb5-46a6-9127-ff98f49acd7c)
+
+      - In the subcription section, choose subscription and storage account name, then click create
+
+        ![image](https://github.com/user-attachments/assets/7a83a271-5316-410c-af72-7a71379537e5)
+
+      - In the set properties section, choose the file path where we want to store the data and give name for the data that want to be stored. For import schema choose None. Then click OK
+
+        ![image](https://github.com/user-attachments/assets/4263f95e-0f44-4062-8157-bcc6a033cad3).
 
 
+   3. Click Validate, to validate the source and sink that just created.
+
+      ![image](https://github.com/user-attachments/assets/522395ed-8e76-4a5c-9151-0b051179a043)
+
+      Make sure that no error found during validation:
+
+      ![image](https://github.com/user-attachments/assets/71f89cd8-00ef-4d38-a5ba-f10ad8107527)
+
+   4. Once it is validated, then click Debug to process the copy file from github to azure data lake:
+
+      Wait until the Debug is success:
+
+      ![image](https://github.com/user-attachments/assets/e2fb55c0-6e24-440e-b410-e4f7514992b4)
+
+  
+      
+
+
+
+        
+
+          
+
+
+        
+
+        
+
+
+      
+
+
+      
+
+
+
+
+
+      
+
+
+
+
+
+   
+
+       
 
 
 
