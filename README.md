@@ -32,6 +32,10 @@ This project is to do end to end data engineering using Azure Technologies for O
 
    - Then click Create Storage Account
   
+   - There will be a storage account dashboard like below:
+  
+   ![image](https://github.com/user-attachments/assets/1b191c99-71b7-49ce-83cb-5878b290bf5b)
+  
    - Then will be directed to the create storage dashboard, then in this page choose the default subscription (it should be free trial) and after that create resource group, just create tokyo-olimppic
 
      ![image](https://github.com/user-attachments/assets/d022aaed-b577-42a3-98d4-ca5796557290)
@@ -60,11 +64,6 @@ This project is to do end to end data engineering using Azure Technologies for O
    - Now deployment is complete and will show like this:
 
      ![image](https://github.com/user-attachments/assets/459d9e20-1d3b-43e7-b163-8b12665a3856)
-
-   
-   - There will be a storage account dashboard like below:
-  
-   ![image](https://github.com/user-attachments/assets/1b191c99-71b7-49ce-83cb-5878b290bf5b)
 
    - Then go to the storage account and we will see the entire storage account like below :
 
