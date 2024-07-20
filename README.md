@@ -26,14 +26,6 @@ This project is to do end to end data engineering using Azure Technologies for O
 
    Data ingestion from external source to data lake storage.
 
-   - Go to Storage Accounts
-
-   ![image](https://github.com/user-attachments/assets/b6ea467a-8640-42d6-97f8-95cc0540c36b)
-
-   - There will be a storage account dashboard like below:
-  
-   ![image](https://github.com/user-attachments/assets/1b191c99-71b7-49ce-83cb-5878b290bf5b)
-
 
    - Then click Create Storage Account
   
@@ -65,6 +57,19 @@ This project is to do end to end data engineering using Azure Technologies for O
    - Now deployment is complete and will show like this:
 
      ![image](https://github.com/user-attachments/assets/459d9e20-1d3b-43e7-b163-8b12665a3856)
+
+   - Go to Storage Accounts
+
+   ![image](https://github.com/user-attachments/assets/b6ea467a-8640-42d6-97f8-95cc0540c36b)
+
+   - There will be a storage account dashboard like below:
+  
+   ![image](https://github.com/user-attachments/assets/1b191c99-71b7-49ce-83cb-5878b290bf5b)
+
+   - Then go to the storage account and we will see the entire storage account like below :
+
+      ![image](https://github.com/user-attachments/assets/355a137c-d45f-4ef3-af5b-f40cc7d164cf)
+
 
      
 
