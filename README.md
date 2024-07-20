@@ -45,6 +45,32 @@ This project is to do end to end data engineering using Azure Technologies for O
 
      ![image](https://github.com/user-attachments/assets/062319ac-6ab5-4ff3-b009-720b278437f0)
 
+   - Then click Next :
+
+     In this part tick on : Enable Hierarchical Namespace
+
+     ![image](https://github.com/user-attachments/assets/4cfda9ce-b2b1-4b7f-a540-fef9a11f453a)
+
+   - Then click Next
+  
+   - In this part, do not need to do anything (do not make any change on this part)
+
+     ![image](https://github.com/user-attachments/assets/93fe560c-c4e1-4055-b697-7f975ea6d09b)
+
+   - Just go next until Review+Create Part and wait until the validation process is complete
+     After validation is complete then just click create button.
+
+     ![image](https://github.com/user-attachments/assets/470cd5ac-5c48-4ed8-9069-aa220e9a9677)
+
+   - Now deployment is complete and will show like this:
+
+     ![image](https://github.com/user-attachments/assets/459d9e20-1d3b-43e7-b163-8b12665a3856)
+
+     
+
+
+
+
    
 
 
