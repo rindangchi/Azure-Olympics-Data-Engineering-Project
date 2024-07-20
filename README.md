@@ -222,7 +222,7 @@ Container is a place where we store our data.
   
       ![image](https://github.com/user-attachments/assets/66310941-b496-4c6f-963f-f12f1280b0d2)
    
-
+   6. Do the same thing for all the csv files. 
   
       
 
