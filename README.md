@@ -326,7 +326,7 @@ Container is a place where we store our data.
        ![image](https://github.com/user-attachments/assets/6c2d8a8b-36c7-4ed1-b33a-f29033621340)
 
 
-     - Then put container and storage account name on the below code, and alo provide the mount point like below:
+     - Then put container and storage account name on the below code, and also provide the mount point like below:
 
        ![image](https://github.com/user-attachments/assets/612e3a55-504d-45ed-add9-2b755e491301)
 
@@ -358,19 +358,38 @@ Container is a place where we store our data.
 
           ![image](https://github.com/user-attachments/assets/d4b2a8eb-1a56-4116-84de-3ff28f2915db)
 
-        - Then we can run the code:
+      - Then we can run the code:
 
-          If it is True, means the connection is success:
+        If it is True, means the connection is success:
 
-          ![image](https://github.com/user-attachments/assets/924752a9-870a-4a48-ae96-62e095ab04ec)
+        ![image](https://github.com/user-attachments/assets/924752a9-870a-4a48-ae96-62e095ab04ec)
 
-          Then try to mount the file :
+        Then try to mount the file :
 
-          ![image](https://github.com/user-attachments/assets/4e5b3eaf-067b-49dc-a934-a3370ce74d67)
+        ![image](https://github.com/user-attachments/assets/4e5b3eaf-067b-49dc-a934-a3370ce74d67)
 
-          We can see that we are succefully access the folder:
+        We can see that we are succefully access the folder:
 
-          ![image](https://github.com/user-attachments/assets/0bb1eaf3-a25e-4145-914c-8e64cc8126f5)
+        ![image](https://github.com/user-attachments/assets/0bb1eaf3-a25e-4145-914c-8e64cc8126f5)
+
+     - Now, try to access a file using the spark.
+
+      ![image](https://github.com/user-attachments/assets/97848515-3ac4-40f8-a89d-c0592e5b2a8e)
+
+     - Then show the data :
+    
+       ![image](https://github.com/user-attachments/assets/bb98610a-a441-49a8-bbbe-7c6bdb1b74bb)
+
+       We can see tha the header / column name is still considered as data, so that we need to change the code as below:
+
+       An run again the code, now can see the headers now are in the correct place:
+
+       ![image](https://github.com/user-attachments/assets/88d84b3d-1992-4d86-bb95-7b3a2e716931)
+
+       
+
+
+         
 
           
 
