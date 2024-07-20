@@ -232,7 +232,33 @@ Container is a place where we store our data.
       ![image](https://github.com/user-attachments/assets/8fdd29bd-5a60-48a3-b00a-201423f32b8b)
 
       
-      
+### Data Transformation in Azure Data Bricks
+
+1. Create Databricks
+   Search databricks in the search bar and open in the new tab
+
+   ![image](https://github.com/user-attachments/assets/8f3bab39-3a49-4613-a7ca-429719ef60aa)
+
+   It will open the databricks panel. Then click create Azure databricks service.
+
+   ![image](https://github.com/user-attachments/assets/1fef4b1f-2b8f-4b39-a640-b5dd6c70f9dd)
+
+
+2. Complete the required fields as below:
+
+   ![image](https://github.com/user-attachments/assets/12fac703-b1b6-4496-8cd0-d856371fcb19)
+
+3. Click Next until tab Review+Create. Then click Create button.
+
+   ![image](https://github.com/user-attachments/assets/dce0b27e-a370-4329-9f36-35e3807b25f5)
+
+4. It will show the process of deploying azure databricks.
+
+   ![image](https://github.com/user-attachments/assets/54edea09-e395-4210-ae3b-f835a62acd8d)
+
+
+
+6.   
 
 
 
