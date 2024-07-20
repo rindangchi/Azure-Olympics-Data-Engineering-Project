@@ -256,9 +256,28 @@ Container is a place where we store our data.
 
    ![image](https://github.com/user-attachments/assets/54edea09-e395-4210-ae3b-f835a62acd8d)
 
+5. Once teh deployment is complete then click go to resources button:
+
+   ![image](https://github.com/user-attachments/assets/399d96d8-293d-4413-b1a0-1ca78e9bf5f5)
+
+6. After that click Launch Workspace to go to the databricks workspace
+
+   ![image](https://github.com/user-attachments/assets/680cabe2-2c5b-42c1-9e5b-11e15c0c0b3c)
+
+7. In the databricks workspace, first we will create a compute, a compute is place where to run the pyspark code. Choose Create Compute: 
+
+   ![image](https://github.com/user-attachments/assets/9628c990-fb64-4ed1-9d34-543b9ee4f05c)
+
+8. After that it will show the compute panel, jut leave the default and change the access mode to Single User. After that click Create Compute.
+
+   ![image](https://github.com/user-attachments/assets/bdd4297d-11d9-4787-9eec-711bc54cf398)
 
 
-6.   
+
+   
+
+
+
 
 
 
