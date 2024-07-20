@@ -440,7 +440,36 @@ Container is a place where we store our data.
 
        ![image](https://github.com/user-attachments/assets/5b328d38-c9fb-4731-b504-200617718d75)
 
-       
+
+   ### Load Data to the Azure Data Lake Transformation Folder
+
+   After we successfully doing a simple tranformation, then we will load the transformed data to the transform-data folder in Azure Data Lake:
+
+   Write below codes:
+
+   ![image](https://github.com/user-attachments/assets/17469dea-d416-4527-8fba-e78100a3adf4)
+
+   Then let's check the tranform-data folder, we will see that there is new folder named athletes already created.
+
+   ![image](https://github.com/user-attachments/assets/06eba3d9-f77e-40e1-ad64-0d3e41de4180)
+
+   When we open the folder, there will be several files. If we want to make it just in one file we can use pandas dataframe.
+
+   ![image](https://github.com/user-attachments/assets/69e05aef-7eae-4305-b8aa-f5961fa46af5)
+
+   Let's do for all the tables:
+
+   ![image](https://github.com/user-attachments/assets/fe5d6d4e-9c59-467f-af23-41ec57c7d408)
+
+   Now all data have been loaded to the transform-data folder:
+
+   ![image](https://github.com/user-attachments/assets/c345785b-71c8-4dda-a612-b2b0a1d5069f)
+
+
+
+
+
+   
 
 
          
@@ -478,7 +507,7 @@ Container is a place where we store our data.
     
        
     
-     - 
+     
 
 
        
