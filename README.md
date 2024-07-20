@@ -321,7 +321,12 @@ Container is a place where we store our data.
 
        ![image](https://github.com/user-attachments/assets/24d7d543-1af4-4ffb-a09d-b4daf7d4e11a)
 
-     - 
+     - Open the notebook again and copy the application id, tenant id and secret key on the provided space :
+
+       ![image](https://github.com/user-attachments/assets/6c2d8a8b-36c7-4ed1-b33a-f29033621340)
+
+       
+
 
 
 
