@@ -218,6 +218,11 @@ Container is a place where we store our data.
 
       ![image](https://github.com/user-attachments/assets/e2fb55c0-6e24-440e-b410-e4f7514992b4)
 
+   5. Once it is success, we can see in our raw data folder that a new file has been succeessfully created.
+  
+      ![image](https://github.com/user-attachments/assets/66310941-b496-4c6f-963f-f12f1280b0d2)
+   
+
   
       
 
