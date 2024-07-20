@@ -96,6 +96,67 @@ Container is a place where we store our data.
 
 ### Data Ingestion in Azure Data Factory 
 
+1. In the search bar, type Azure Data Factory and choose Data Factories
+
+   ![image](https://github.com/user-attachments/assets/065a0b2d-d70b-495f-8736-d9fcb634000b)
+
+2. It will be directed to Data Factories page, then it this page create new  a Data Factory by clicking blue button " Create Data Factory "
+
+   ![image](https://github.com/user-attachments/assets/7d3dc2fb-2051-49fe-9bd6-95136e3ca0db)
+
+3. Choose default subscription then choose the tokyo-olympic in the resource group section
+
+   ![image](https://github.com/user-attachments/assets/6cae3b90-4dd0-4499-a776-79e36fc61c2c)
+
+   Input the instance name and choose the region:
+
+   ![image](https://github.com/user-attachments/assets/97af7790-50d4-4cba-b847-049678da770e)
+
+4. Just go to Next until Review + Create section. Once the validation is complete, just click the create button.
+
+   ![image](https://github.com/user-attachments/assets/ab0686aa-ff41-4d85-8fb3-516fd7e1828b)
+
+5. When deploymeny is complete, will be directed to below page, then click go to resource button.
+
+   ![image](https://github.com/user-attachments/assets/864dc875-7587-40b9-8d7a-f1cd786821be)
+
+6. Then will be directed to the data factory page like below. 
+
+   ![image](https://github.com/user-attachments/assets/a49a4373-c968-4817-8c73-b23d0e1ac6ca)
+
+7. Then click on the launch studio button. Then it will be directed to Azure data factory panel.
+
+   ![image](https://github.com/user-attachments/assets/3caaca05-7d1d-48ca-a970-6cf2a3490e07)
+
+8. Create Pipeline :
+
+   - Go to Author then click plus icon then choose pipelie --> pipeline.
+
+     ![image](https://github.com/user-attachments/assets/4b899b9b-a8c7-44b2-8a3f-39745b670ebf)
+
+   - Give name for the pipeline as data-ingestion.
+
+     ![image](https://github.com/user-attachments/assets/6264b6f5-e683-4e83-b953-a1738fe2e626)
+
+   - The pipeline steps:
+
+     - Copy data from data source to the data storage. The data is stored in in Github repository, so from the github respository we will load the data to the azure data factory.
+
+       ![image](https://github.com/user-attachments/assets/10a77ba4-1358-407c-80e7-b958ee29b766)
+
+
+
+
+
+
+
+
+     
+
+
+
+   
+
 
 
 
