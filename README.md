@@ -386,6 +386,77 @@ Container is a place where we store our data.
 
        ![image](https://github.com/user-attachments/assets/88d84b3d-1992-4d86-bb95-7b3a2e716931)
 
+     - We need to access all of the csv file so let's copy the code five times:
+
+       ![image](https://github.com/user-attachments/assets/8c14ae9d-72f1-4e08-ab84-5dedb544bcff)
+
+     - Next we can see the schema of each data by using below code:
+
+       ![image](https://github.com/user-attachments/assets/cff20415-706f-43d1-a585-9cc1ecf24bef)
+
+     - In this case, for the entriesgender teh format of Female, Male, and Total column is wrong, it should be in integer not in string.
+    
+       The entriesgender data:
+    
+       ![image](https://github.com/user-attachments/assets/3e1fe805-f491-4b0f-9c75-062eb2e2ae63)
+
+
+       Format of each column of entriesgender table:
+
+       ![image](https://github.com/user-attachments/assets/bc2da528-3c52-4012-bccc-60a4201e63f4)
+
+       Now let's change the format.
+       Before that we need to import those below functions.
+
+       ![image](https://github.com/user-attachments/assets/5fecfd9f-cef3-4ebc-b6e4-402014e8ebbb)
+
+       Let's write below codes to change data type from string to integer:
+
+       ![image](https://github.com/user-attachments/assets/91a71920-d81a-4a3f-a48e-f7df71b6fa65)
+
+       When we print the schema again the data type now should be in integer:
+
+       ![image](https://github.com/user-attachments/assets/adf7d85e-65be-4b09-9a39-de999a137dac)
+
+     - Let's access and read the medals data
+
+       The medals data:
+
+        ![image](https://github.com/user-attachments/assets/5b7f7728-d130-47f2-b799-1276a6a52f5c)
+
+       medals data schema:
+
+       We can see tha columns with numeric data still have data type string.
+
+       ![image](https://github.com/user-attachments/assets/461c0ab5-ab1a-4e44-8349-be894a827e46)
+
+       So that we need to change it again. There is another way we can apply to change teh data type. We can change the data type directly when we are reading the file, means that we allow the spark to understand the correct data type for ecah column.
+
+       just revise the code like below, add option inferschema as true.
+
+       ![image](https://github.com/user-attachments/assets/3cc73ef2-cf76-4aa0-8652-e4acfec2da48)
+
+       When we print the schema again, we can see that the data types already change to the correct format:
+
+       ![image](https://github.com/user-attachments/assets/5b328d38-c9fb-4731-b504-200617718d75)
+
+       
+
+
+         
+
+       
+
+  
+
+
+
+  
+  
+
+
+       
+
        
 
 
