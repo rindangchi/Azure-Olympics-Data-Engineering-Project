@@ -321,9 +321,56 @@ Container is a place where we store our data.
 
        ![image](https://github.com/user-attachments/assets/24d7d543-1af4-4ffb-a09d-b4daf7d4e11a)
 
-     - Open the notebook again and copy the application id, tenant id and secret key on the provided space :
+     - Open the notebook again and copy the application id, tenant id and secret key on the provided space. In the real implementation it is not the best practice to directly put the key on the notebook, the best practice is to store the secret key and secret id in key vault.
 
        ![image](https://github.com/user-attachments/assets/6c2d8a8b-36c7-4ed1-b33a-f29033621340)
+
+
+     - Then put container and storage account name on the below code, and alo provide the mount point like below:
+
+       ![image](https://github.com/user-attachments/assets/612e3a55-504d-45ed-add9-2b755e491301)
+
+     -   Before run the code, we need to give access to the App001 to enable to access the data in the Data Lake.
+
+         - Go to storage account then Choose IAM, like below:
+
+           ![image](https://github.com/user-attachments/assets/1a015306-9cbe-477d-ac4b-ff180e6957d5)
+
+        - Click Add --> Add Role Assignment
+
+          ![image](https://github.com/user-attachments/assets/8db58d42-7d69-47b3-b1d8-f72ae736dbad)
+
+        - Choose Storage Blob Data Contributor --> we will give access to the App to write, read, delete any object in the container 
+
+          ![image](https://github.com/user-attachments/assets/5776aec9-0642-4c0c-95c5-0ed0534f15ad)
+          
+        - In the Add Role Assignment page, click select member
+
+          ![image](https://github.com/user-attachments/assets/cdf8ce68-2948-4279-b7f7-00470e46414a)
+
+        - Select the member --> App001
+
+          ![image](https://github.com/user-attachments/assets/5c70a057-883b-43fd-87ef-6d790269efed)
+
+          ![image](https://github.com/user-attachments/assets/a405866d-2ff2-46f6-8580-cb1c03bc16d6)
+
+        - The app will be available here, then click next until Review + Assign part. Then Click Review+Asign button at the bottom of the page. 
+
+          ![image](https://github.com/user-attachments/assets/d4b2a8eb-1a56-4116-84de-3ff28f2915db)
+
+          
+  
+
+
+          
+
+
+
+    
+       
+    
+     - 
+
 
        
 
