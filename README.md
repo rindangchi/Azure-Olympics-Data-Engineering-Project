@@ -222,8 +222,16 @@ Container is a place where we store our data.
   
       ![image](https://github.com/user-attachments/assets/66310941-b496-4c6f-963f-f12f1280b0d2)
    
-   6. Do the same thing for all the csv files. 
-  
+   6. Do the same thing for all the csv files.
+   7. Do validate and debug the process untill success:
+
+      ![image](https://github.com/user-attachments/assets/893ca158-740d-4325-89c5-d179b0c4872a)
+
+   8. Check in the raw folder, all data have successfully copied :
+
+      ![image](https://github.com/user-attachments/assets/8fdd29bd-5a60-48a3-b00a-201423f32b8b)
+
+      
       
 
 
