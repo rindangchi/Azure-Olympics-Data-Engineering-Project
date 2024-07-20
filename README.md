@@ -24,17 +24,20 @@ This project is to do end to end data engineering using Azure Technologies for O
    ![image](https://github.com/user-attachments/assets/e4bd0d0d-61fd-4b19-9df3-47e72f6f132e)
 
 
-   Data ingestion from external source to data lake storage.
+   Data ingestion from external source to data lake storage
+   
+### Create Storage Account
    
    - Go to Storage Accounts
 
    ![image](https://github.com/user-attachments/assets/b6ea467a-8640-42d6-97f8-95cc0540c36b)
 
-   - Then click Create Storage Account
   
    - There will be a storage account dashboard like below:
   
    ![image](https://github.com/user-attachments/assets/1b191c99-71b7-49ce-83cb-5878b290bf5b)
+
+   - Then click Create Storage Account
   
    - Then will be directed to the create storage dashboard, then in this page choose the default subscription (it should be free trial) and after that create resource group, just create tokyo-olimppic
 
@@ -67,7 +70,34 @@ This project is to do end to end data engineering using Azure Technologies for O
 
    - Then go to the storage account and we will see the entire storage account like below :
 
-      ![image](https://github.com/user-attachments/assets/355a137c-d45f-4ef3-af5b-f40cc7d164cf)
+     ![image](https://github.com/user-attachments/assets/355a137c-d45f-4ef3-af5b-f40cc7d164cf)
+
+
+### Create Container
+
+Container is a place where we store our data. 
+
+- Click Conatainer
+
+![image](https://github.com/user-attachments/assets/9974536b-db19-4ff9-bb96-e5d3445b3a5b)
+
+     
+- Then give name for the container, then click create button
+
+![image](https://github.com/user-attachments/assets/56cdbd22-8f19-4f8d-b3d6-2d41843ebabd)
+
+- A new container will be created
+
+![image](https://github.com/user-attachments/assets/cb37420d-77ae-438a-804f-cd8db4be2965)
+
+- Click om the container and create 2 folders. One for raw data and the second is for transformed data. To create new folder click on the directory section.
+
+![image](https://github.com/user-attachments/assets/15aa3cf2-066d-4012-81f1-a393461dd052)
+
+### Data Ingestion in Azure Data Factory 
+
+
+
 
 
      
