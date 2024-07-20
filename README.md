@@ -358,6 +358,25 @@ Container is a place where we store our data.
 
           ![image](https://github.com/user-attachments/assets/d4b2a8eb-1a56-4116-84de-3ff28f2915db)
 
+        - Then we can run the code:
+
+          If it is True, means the connection is success:
+
+          ![image](https://github.com/user-attachments/assets/924752a9-870a-4a48-ae96-62e095ab04ec)
+
+          Then try to mount the file :
+
+          ![image](https://github.com/user-attachments/assets/4e5b3eaf-067b-49dc-a934-a3370ce74d67)
+
+          We can see that we are succefully access the folder:
+
+          ![image](https://github.com/user-attachments/assets/0bb1eaf3-a25e-4145-914c-8e64cc8126f5)
+
+          
+
+
+
+
           
   
 
