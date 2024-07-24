@@ -466,6 +466,93 @@ Container is a place where we store our data.
    ![image](https://github.com/user-attachments/assets/c345785b-71c8-4dda-a612-b2b0a1d5069f)
 
 
+   ### Analytics Using Azure Synapse
+
+   Now after load the transformed data to the transform folder, we will do analysis using azure synapse.
+
+   1. In the srarch bar, serach azure synapse analytics
+
+      ![image](https://github.com/user-attachments/assets/0f163097-cfc7-4d6c-abd1-bfa052fbc6c2)
+
+   2. Click on the create button
+
+      ![image](https://github.com/user-attachments/assets/ac994c6c-ec30-49cb-8c33-737efbc43cf0)
+
+   3. In the basic setting input the details like below:
+
+      ![image](https://github.com/user-attachments/assets/2426a54e-16ac-43e7-b9b4-b7e4e906c0b9)
+
+   4. Clikc Next until Review+Create, wait the validation until it is done then clck create.
+
+      ![image](https://github.com/user-attachments/assets/46683184-04d9-4d12-94a6-5fdc1e9cdf5b)
+
+   5. Wait until the deployment is complete then go to resource group
+
+      ![image](https://github.com/user-attachments/assets/6cba638d-c9f0-4b6b-bacc-c12ba16dc1ae)
+
+   6. It is page we can see all reource that we have created,such as databrick, datafactory, synapse, and account group.
+
+      ![image](https://github.com/user-attachments/assets/6241797d-fbf9-4924-a90f-847df38a4df1)
+
+   7. Click tokyo-olympic-synapse. It will be directed to synapse page that contains all information abut azure synapse. In the page choose open synapse studio.
+
+      ![image](https://github.com/user-attachments/assets/bb5a767c-3328-4073-a174-446d910137d4)
+
+   8. It will be directed to synapse analytic page like below:
+
+      ![image](https://github.com/user-attachments/assets/07a45ca6-1a11-4bf7-ad4f-215184c5b7d4)
+
+   7. First, let's load our database to the azure synapse. Choose Data --> Choose Plu button --> Choose Lake Database
+
+      ![image](https://github.com/user-attachments/assets/96b70900-6634-4a39-9d1b-6822b3cc8896)
+
+   8. We can see that table i still empty, and in the right side give name for the database.
+
+      ![image](https://github.com/user-attachments/assets/e4777400-58d5-4fb5-9b94-0b833e681acc)
+
+   9. Then create external table in the datalake and input the required fields like below. In the input file/folder choose where the tranformed data are stored.
+
+      ![image](https://github.com/user-attachments/assets/744f6d2d-97ce-4757-9a75-ced0e8e429ec)
+
+   10. Then click continue, and it will go to the below section, tick Infer first row as column name. Then click create button.
+
+       ![image](https://github.com/user-attachments/assets/ecc68852-971e-43ba-9036-3d0e32373dd1)
+
+   11. It will go to the workspace like below. We can change the data type, column name etc, juct clik validate then publish to publish the actual database in synapse.
+
+       ![image](https://github.com/user-attachments/assets/075ea926-7297-42da-904d-a54ee8887f18)
+
+   12. Click publish
+
+       ![image](https://github.com/user-attachments/assets/b32e2bb2-d6ff-44cb-81e4-45a2ec5f69f6)
+
+       
+
+
+
+       
+
+
+       
+
+      
+
+      
+
+
+
+
+
+      
+
+      
+
+      
+
+   
+
+
+
 
 
 
