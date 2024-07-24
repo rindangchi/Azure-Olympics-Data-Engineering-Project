@@ -526,6 +526,18 @@ Container is a place where we store our data.
 
        ![image](https://github.com/user-attachments/assets/b32e2bb2-d6ff-44cb-81e4-45a2ec5f69f6)
 
+   13. After refresh the database, in the left ection we can see that the table is successfully loaded to the synapse:
+
+         ![image](https://github.com/user-attachments/assets/429bb929-7228-46ea-ad5d-5c8586da24b8)
+
+   14. Now, with the same steps, let's import all tables to the azure synapse
+
+
+       ![image](https://github.com/user-attachments/assets/8f5e1d71-ad1d-4031-ac34-f77a8814bbf1)
+
+      
+
+
        
 
 
