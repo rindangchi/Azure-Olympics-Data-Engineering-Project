@@ -535,6 +535,23 @@ Container is a place where we store our data.
 
        ![image](https://github.com/user-attachments/assets/8f5e1d71-ad1d-4031-ac34-f77a8814bbf1)
 
+   15. Then we can create SQL Script:
+
+
+       ![image](https://github.com/user-attachments/assets/1e6d08c2-80f4-4e47-81e8-6f105248252b)
+
+       Do some analysis using SQL script:
+
+
+       ![image](https://github.com/user-attachments/assets/7d64e9d3-8f03-4cd5-aa53-fa16a505212f)
+
+
+       ![image](https://github.com/user-attachments/assets/7fadda8e-9761-4041-b454-1fdf6c0b4abf)
+
+       
+
+
+
       
 
 
