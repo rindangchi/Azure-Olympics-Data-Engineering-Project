@@ -549,7 +549,67 @@ Container is a place where we store our data.
        ![image](https://github.com/user-attachments/assets/7fadda8e-9761-4041-b454-1fdf6c0b4abf)
 
        
+### Analytics in Power BI
+1. Open the power BI desktop
+2. On the first page click "Get Data from another Source"
 
+   ![image](https://github.com/user-attachments/assets/b019e1bf-0ad4-49e5-af70-910e43a91051)
+
+3. Choose Azure then choose Azure Synapse Analytics SQL. Then choose Connect:
+
+   ![image](https://github.com/user-attachments/assets/49c6239a-223b-4d34-aec5-0bf4e407b555)
+
+4. There will be a pop up like below, asking to input Server and database name.
+
+   ![image](https://github.com/user-attachments/assets/cbafaead-27bd-44fa-9e5c-d6694c259bca)
+
+5. To get the server name, go to Azure Synapse and click Setting --> Properties, from here scroll down and copy detail from field "Serverless SQL Endpoint"
+
+   ![image](https://github.com/user-attachments/assets/09ce2e37-f878-443d-9da4-7ba4c5bdff62)
+
+6. After input the detail, then click OK
+
+   ![image](https://github.com/user-attachments/assets/59143caf-2d23-478a-8bdf-2b32fa5265ca)
+
+7. Choose microdoft account which used to createt the database
+
+   ![image](https://github.com/user-attachments/assets/579b08af-36a6-4c1b-96d4-969047e02e12)
+
+8. After Sign-in then click Connect
+
+   ![image](https://github.com/user-attachments/assets/6d2004d4-b18b-4cd9-8a8a-f756b7f8d418)
+
+9. After Connect, now we can see all the table we have created in the Azure Synapse
+
+   ![image](https://github.com/user-attachments/assets/0d6a9175-c94c-4e2b-bc41-5edf00afc9cb)
+
+10. Then click Load.
+
+   ![image](https://github.com/user-attachments/assets/fc6bc80c-af59-4e9c-ac49-294857b978ba)
+
+11. It will load the data
+
+   ![image](https://github.com/user-attachments/assets/24c12672-675b-490e-92b7-574b1ebcf727)
+
+ 12. After Load is success, we can see the data in the right side
+
+   ![image](https://github.com/user-attachments/assets/06d5db03-ce57-46d9-a3fb-4435d3ad07db)
+
+   
+    
+   
+   
+
+
+   
+
+   
+
+
+
+
+
+   
 
 
       
