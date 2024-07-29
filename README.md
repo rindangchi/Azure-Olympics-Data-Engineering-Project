@@ -595,6 +595,11 @@ Container is a place where we store our data.
 
    ![image](https://github.com/user-attachments/assets/06d5db03-ce57-46d9-a3fb-4435d3ad07db)
 
+ 13. Then let's create the dashboard!
+
+   ![image](https://github.com/user-attachments/assets/8ec022e5-981f-48f2-a70b-100658c5cb01)
+
+
    
     
    
